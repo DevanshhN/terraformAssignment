@@ -19,4 +19,6 @@ resource "aws_security_group" "sg" {
       description     = lookup(ingress.value, "description", null)
     }
   }
+
+  tags = var.default_tags
 }

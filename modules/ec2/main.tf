@@ -5,4 +5,5 @@ resource "aws_instance" "ec2" {
   security_groups             = [var.sg_id]
   subnet_id                   = var.subnet_id
   associate_public_ip_address = var.associate_public_ip_address
+  tags                        = var.default_tags
 }

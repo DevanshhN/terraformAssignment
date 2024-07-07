@@ -2,6 +2,12 @@ variable "vpc_id" {
   description = "Value of the VPC ID being passed when the module is called in the root main.tf"
 }
 
+variable "default_tags" {
+  description = "The default tags to be added to a resource"
+  type        = map(string)
+  default     = {}
+}
+
 variable "sg_name" {
   description = "Name of the SG being created, value is passed from the calling module"
 }
