@@ -32,5 +32,5 @@ No modules.
 
 | Name | Description |
 |------|-------------|
-| <a name="output_vpc_id"></a> [vpc\_id](#output\_vpc\_id) | n/a |
+| <a name="output_vpc_id"></a> [vpc\_id](#output\_vpc\_id) | The resource ID of the VPC created |
 <!-- END_TF_DOCS -->

@@ -37,7 +37,7 @@
 
 | Name | Description | Type | Default | Required |
 |------|-------------|------|---------|:--------:|
-| <a name="input_default_tags"></a> [default\_tags](#input\_default\_tags) | n/a | `map(string)` | <pre>{<br>  "CanBeDeleted": "Yes",<br>  "Owner": "Devansh",<br>  "Purpose": "Development"<br>}</pre> | no |
+| <a name="input_default_tags"></a> [default\_tags](#input\_default\_tags) | The default tags to be attached to each resource being created | `map(string)` | <pre>{<br>  "CanBeDeleted": "Yes",<br>  "Owner": "Devansh",<br>  "Purpose": "Development"<br>}</pre> | no |
 
 ## Outputs
 

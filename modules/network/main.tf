@@ -6,13 +6,13 @@ resource "aws_eip" "eip" {
 }
 resource "aws_internet_gateway" "igw" {
   vpc_id = var.vpc_id
-  tags = merge(var.default_tags, { Name = "IGW" })
+  tags   = merge(var.default_tags, { Name = "IGW" })
 }
 
 resource "aws_nat_gateway" "ngw" {
   allocation_id = aws_eip.eip.id
   subnet_id     = var.public_subnet_id
-  tags = merge(var.default_tags, { Name = "NGW" })
+  tags          = merge(var.default_tags, { Name = "NGW" })
 }
 
 resource "aws_route_table" "private_rt" {
@@ -20,7 +20,7 @@ resource "aws_route_table" "private_rt" {
   route {
     cidr_block     = "0.0.0.0/0"
     nat_gateway_id = aws_nat_gateway.ngw.id
-    
+
   }
   tags = merge(var.default_tags, { Name = "PrivateRT" })
 }

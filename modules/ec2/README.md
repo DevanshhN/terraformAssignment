@@ -38,7 +38,7 @@ No modules.
 
 | Name | Description |
 |------|-------------|
-| <a name="output_ec2_instance_id"></a> [ec2\_instance\_id](#output\_ec2\_instance\_id) | n/a |
-| <a name="output_private_ip"></a> [private\_ip](#output\_private\_ip) | n/a |
-| <a name="output_public_ip"></a> [public\_ip](#output\_public\_ip) | n/a |
+| <a name="output_ec2_instance_id"></a> [ec2\_instance\_id](#output\_ec2\_instance\_id) | The Resource ID of the EC2 instance created |
+| <a name="output_private_ip"></a> [private\_ip](#output\_private\_ip) | The Private IP address of the resource created |
+| <a name="output_public_ip"></a> [public\_ip](#output\_public\_ip) | The public IP address of the resource created, IF it exists |
 <!-- END_TF_DOCS -->
