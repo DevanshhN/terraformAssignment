@@ -1,13 +1,15 @@
 <!-- BEGIN_TF_DOCS -->
 ## Requirements
 
-No requirements.
+| Name | Version |
+|------|---------|
+| <a name="requirement_aws"></a> [aws](#requirement\_aws) | 5.22.0 |
 
 ## Providers
 
 | Name | Version |
 |------|---------|
-| <a name="provider_aws"></a> [aws](#provider\_aws) | n/a |
+| <a name="provider_aws"></a> [aws](#provider\_aws) | 5.22.0 |
 
 ## Modules
 
@@ -17,7 +19,7 @@ No modules.
 
 | Name | Type |
 |------|------|
-| [aws_security_group.sg](https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/security_group) | resource |
+| [aws_security_group.sg](https://registry.terraform.io/providers/hashicorp/aws/5.22.0/docs/resources/security_group) | resource |
 
 ## Inputs
 
@@ -34,5 +36,5 @@ No modules.
 
 | Name | Description |
 |------|-------------|
-| <a name="output_sg_id"></a> [sg\_id](#output\_sg\_id) | n/a |
+| <a name="output_sg_id"></a> [sg\_id](#output\_sg\_id) | The Security Group ID of the resource created |
 <!-- END_TF_DOCS -->
