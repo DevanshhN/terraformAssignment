@@ -43,6 +43,6 @@
 
 | Name | Description |
 |------|-------------|
-| <a name="output_Private_EC2_IP"></a> [Private\_EC2\_IP](#output\_Private\_EC2\_IP) | n/a |
-| <a name="output_bastion_host_IP"></a> [bastion\_host\_IP](#output\_bastion\_host\_IP) | n/a |
+| <a name="output_Private_EC2_IP"></a> [Private\_EC2\_IP](#output\_Private\_EC2\_IP) | The IPv4 Private address of the private server, you can connect to it using the bastion host |
+| <a name="output_bastion_host_IP"></a> [bastion\_host\_IP](#output\_bastion\_host\_IP) | The IPv4 Public IP address of the bastion host |
 <!-- END_TF_DOCS -->

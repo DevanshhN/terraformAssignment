@@ -33,5 +33,5 @@ No modules.
 
 | Name | Description |
 |------|-------------|
-| <a name="output_ssh_key"></a> [ssh\_key](#output\_ssh\_key) | n/a |
+| <a name="output_ssh_key"></a> [ssh\_key](#output\_ssh\_key) | The SSH Key ID created |
 <!-- END_TF_DOCS -->
